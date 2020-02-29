@@ -6,7 +6,7 @@ It helps one learn the core concepts of Spring Hibernate as well as Spring AOP.
 I Have also included the dump of the database file which can be easily imported in your ORACLE database
 using the following command :
 
-CREATE OR REPLACE DIRECTORY datapump AS 'F:\Scripts';
+CREATE OR REPLACE DIRECTORY datapump AS '{Full Directory Path}'; eg 'C:\Scripts'
 
 GRANT READ, WRITE ON DIRECTORY datapump TO {DbName};
  
